@@ -6,7 +6,7 @@ import os
 import tempfile 
 
 # Define the Node class and other necessary functions as shown in your previous code
-import heapq
+# import heapq
 import graphviz
 
 # Set the Graphviz executable path within your Streamlit app (replace with your actual path)
@@ -172,8 +172,9 @@ def main():
     st.markdown("2. Add this new node to the heap.")
     st.markdown("3. Continue till only one element is left in the heap.")
     st.write("On clicking on encode, you can visualise the elements in the heap and the new node combination for every step.")
+    st.write("Please reload the page if you want to visualise more than one encoding, this avoids any errors that may occur.")
     # Input text to be encoded
-    input_text = st.text_area("Enter the text to be encoded","aaaaaaaaaaaabbbbbbbbbcccccccccdddddeeeeff")
+    input_text = st.text_area("Enter the text to be encoded")
 
     if st.button("Encode"):
         # Calculate character frequencies
