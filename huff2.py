@@ -10,8 +10,8 @@ import heapq
 import graphviz
 
 # Set the Graphviz executable path within your Streamlit app (replace with your actual path)
-graphviz_path = "C:/Program Files/Graphviz/bin/"  # Example path, adjust as needed
-os.environ["PATH"] += os.pathsep + graphviz_path
+# graphviz_path = "C:/Program Files/Graphviz/bin/"  # Example path, adjust as needed
+# os.environ["PATH"] += os.pathsep + graphviz_path
 
 class Node:
     def __init__(self, freq, symbol, left=None, right=None):
