@@ -3,5 +3,4 @@ heapq
 time
 os
 tempfile 
-heapq
 graphviz
