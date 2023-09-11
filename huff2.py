@@ -171,11 +171,11 @@ def main():
     st.markdown("1. Remove the 2 elements with minimum frequencies from the min heap and combine them to give a new node.")
     st.markdown("2. Add this new node to the heap.")
     st.markdown("3. Continue till only one element is left in the heap.")
-    st.write("On clicking on encode, you can visualise the elements in the heap and the new node combination for every step.")
-    st.write("First try running for the text provided, next, try running by adding more characters. Please do not reduce the number of characters, it may lead to unexpected errors.")
+    # st.write("On clicking on encode, you can visualise the elements in the heap and the new node combination for every step.")
+    # st.write("First try running for the text provided, next, try running by adding more characters. Please do not reduce the number of characters, it may lead to unexpected errors.")
     # Input text to be encoded
-    input_text = st.text_area("Enter the text to be encoded","aaaaaaaaaaaabbbbbbbbbcccccccccdddddeeeeff")
-
+    st.write("The text to be encoded is : aaaaaaaaaaaabbbbbbbbbcccccccccdddddeeeeff")
+    input_text = "aaaaaaaaaaaabbbbbbbbbcccccccccdddddeeeeff"
     if st.button("Encode"):
         # Calculate character frequencies
         char_freq = {}
